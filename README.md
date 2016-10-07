@@ -43,7 +43,9 @@ Imagine the following array. The parentId identifies the parent element node whe
     }
 
 
-## _.tree(flatArray, [elementId], [parentElementId], [childrenGroupName],[rootElementId])
+##  Function description
+
+``_.tree(flatArray, [elementId], [parentElementId], [childrenGroupName], [rootElementId])``
 
  - **flatArray** It is the input data array.
  - **elementId** The object key used as identifier. Defaults to `id`.

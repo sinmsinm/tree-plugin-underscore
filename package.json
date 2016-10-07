@@ -1,7 +1,7 @@
 {
   "name": "tree-plugin-underscore",
   "version": "1.0.0",
-  "description": "tree-plugin-underscore is a plugin to extend underscore to build flat lists to tree streuctures",
+  "description": "tree-plugin-underscore is an extension for underscore to build flat lists to tree structures",
   "main": "tree-plugin-underscore",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

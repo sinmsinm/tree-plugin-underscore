@@ -56,5 +56,5 @@ Imagine the following array. The parentId identifies the parent element node whe
  
  This plugin has been written using the original code in the https://gist.github.com/jimmed/6608648 .
 
-## LICENSE
-MIT
+## License
+  tree-plugin-underscore is licenced under [The MIT License (MIT)](https://github.com/sinmsinm/tree-plugin-underscore/blob/master/LICENSE)

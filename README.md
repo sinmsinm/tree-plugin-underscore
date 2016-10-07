@@ -55,3 +55,6 @@ Imagine the following array. The parentId identifies the parent element node whe
  
  
  This plugin has been written using the original code in the https://gist.github.com/jimmed/6608648 .
+
+## LICENSE
+MIT

@@ -12,7 +12,7 @@ Imagine the following array. The parentId identifies the parent element node whe
           { id: 4, title: 'Second Answer Reply', parentId: 2 }
         ];
         
-    `console.log (_.tree(myFlatArray))`, will print the next output:
+    console.log (_.tree(myFlatArray)), will print the next output:
 
     >
     {
@@ -45,13 +45,13 @@ Imagine the following array. The parentId identifies the parent element node whe
 
 ##  Function description
 
-``_.tree(flatArray, [elementId], [parentElementId], [childrenGroupName], [rootElementId])``
+``_.tree(flatArray, [rootIdValue], [idName], [parentIdName], [childrenCollectionName])``
 
  - **flatArray**: It is the input data array.
- - **elementId**: The object key used as identifier. Defaults to `id`.
- - **parentElementId**: The object key used to indentift its parent element. Defaults to `parentId`.
- - **childrenGroupName**: The name of the children array we want in our tree structure 
- - **rootElementId**: The value of the first element's id. Defaults to the first ID found, or `0` if not found.
+ - **rootIdValue**: The value of the first element's id. Defaults to the first ID found, or `0` if not found.
+ - **idName**: The object key used as identifier. Defaults to `id`.
+ - **parentIdName**: The object key used to indentift its parent element. Defaults to `parentId`.
+ - **childrenCollectionName**: The name of the children array we want in our tree structure 
  
  
  This plugin has been written using the original code in the https://gist.github.com/jimmed/6608648 .

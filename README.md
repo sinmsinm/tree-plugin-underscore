@@ -47,11 +47,11 @@ Imagine the following array. The parentId identifies the parent element node whe
 
 ``_.tree(flatArray, [elementId], [parentElementId], [childrenGroupName], [rootElementId])``
 
- - **flatArray** It is the input data array.
- - **elementId** The object key used as identifier. Defaults to `id`.
- - **parentElementId** The object key used to indentift its parent element. Defaults to `parentId`.
- - **childrenGroupName** The name of the children array we want in our tree structure 
- - **rootElementId** The value of the first element's id. Defaults to the first ID found, or `0` if not found.
+ - **flatArray**: It is the input data array.
+ - **elementId**: The object key used as identifier. Defaults to `id`.
+ - **parentElementId**: The object key used to indentift its parent element. Defaults to `parentId`.
+ - **childrenGroupName**: The name of the children array we want in our tree structure 
+ - **rootElementId**: The value of the first element's id. Defaults to the first ID found, or `0` if not found.
  
  
  This plugin has been written using the original code in the https://gist.github.com/jimmed/6608648 .

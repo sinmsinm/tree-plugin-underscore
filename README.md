@@ -64,6 +64,7 @@ You can load it using the `require` function:
 	global._ = _;
 	require('tree-plugin-underscore');
 
+
 ## Use it with lodash
 Lodash doesn't include all the methods in the core library as underscore does. So it's necessary to include the 'partial' extension before we load 'tree' extension.
     

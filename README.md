@@ -58,16 +58,15 @@ The output would be something like that.
  
  This plugin has been written using the original code in the https://gist.github.com/jimmed/6608648 .
 ## How to load the plugin
-
 You can load it using the `require` function:
 	
 	var _ = require('underscore');
 	global._ = _;
 	require('tree-plugin-underscore');
 
-
 ## Use it with lodash
 Lodash doesn't include all the methods in the core library as underscore does. So it's necessary to include the 'partial' extension before we load 'tree' extension.
+    
 	var _ = require('lodash');
 	var partial = require('lodash.partial');
 	global._ = _;

@@ -14,6 +14,8 @@ Imagine the following array. The parentId identifies the parent element node whe
         
     console.log (_.tree(myFlatArray)), will print the next output:
 
+The output would be something like that.
+
     >
     {
       "id": 1,
@@ -55,6 +57,22 @@ Imagine the following array. The parentId identifies the parent element node whe
  
  
  This plugin has been written using the original code in the https://gist.github.com/jimmed/6608648 .
+## How to load the plugin
+
+You can load it using the `require` function:
+	
+	var _ = require('underscore');
+	global._ = _;
+	require('tree-plugin-underscore');
+
+
+## Use it with lodash
+Lodash doesn't include all the methods in the core library as underscore does. So it's necessary to include the 'partial' extension before we load 'tree' extension.
+	var _ = require('lodash');
+	var partial = require('lodash.partial');
+	global._ = _;
+	require('tree-plugin-underscore');
+
 
 ## License
   tree-plugin-underscore is licenced under [The MIT License (MIT)](https://github.com/sinmsinm/tree-plugin-underscore/blob/master/LICENSE)

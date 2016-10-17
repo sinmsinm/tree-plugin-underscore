@@ -53,10 +53,11 @@ The output would be something like that.
  - **rootIdValue**: The value of the first element's id. Defaults to the first ID found, or `0` if not found.
  - **idName**: The object key used as identifier. Defaults to `id`.
  - **parentIdName**: The object key used to indentift its parent element. Defaults to `parentId`.
- - **childrenCollectionName**: The name of the children array we want in our tree structure 
+ - **childrenCollectionName**: The name of the children array we want in our tree structure.
  
- 
- This plugin has been written using the original code in the https://gist.github.com/jimmed/6608648 .
+  
+This plugin has been written using the original code in the https://gist.github.com/jimmed/6608648 .
+
 ## How to load the plugin
 You can load it using the `require` function:
 	

@@ -1,7 +1,7 @@
 (function() {
 
   var matchAttribute = function  (key, value, dataObject) {
-    return (value == _.property(key)(dataObject));
+    return (value.toString() === (_.property(key)(dataObject) || "").toString());
   };
 
   var buildTree  = function(flatArray, rootIdValue, idName, parentIdName, childrenCollectionName) {
